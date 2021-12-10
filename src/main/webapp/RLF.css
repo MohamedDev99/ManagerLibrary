@@ -1,0 +1,127 @@
+body {
+    background-image: url(img/login-photo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerRLF{
+   
+}
+.p1{
+    align-items: center;
+}
+.top-home-photo{
+    background-image: url(img/top-home-photo.jpg);
+    background-size: 100% 50vh;
+    font-family: 'Arimo', sans-serif;
+    width: 100%;
+}
+.top-home-photo h1{
+    text-align: center;
+    font-size: large;
+}
+.nav--link a{
+    text-decoration: none;
+}
+
+/*-- for login page */
+.logo{
+    display: flex;
+    align-items: center;
+    flex-basis: 270px;
+    position: relative;
+    padding: 0% 2%;
+}
+.a1 {
+    font-family: 'KoHo', sans-serif;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    flex-basis: 27px;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    flex-basis: 27px;
+}
+.logo h1{
+    color: rgb(175, 179, 190);
+    font-size: 20px;  
+    font-family: 'KoHo', sans-serif; 
+    font-size: medium; 
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.card-login{
+    background: rgba(253, 253, 253, 0.767);
+    border: olivedrab;
+    border-radius: 9px;
+    box-shadow: rgb(3, 2, 2);
+    width: 23%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    
+}
+.h{
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(9, 10, 9);
+    font-size: 22px;
+}
+
+.btn--Pos button{
+    background: rgb(0, 60, 255);
+    width: 70px;
+    height: 34px;
+    border: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.btn--Pos{
+    padding: 0px 30px;
+}
+
+/*-- for Sign Up */
+.logo-signup{
+    display: flex;
+    align-items: center;
+    flex-basis: 270px;
+    position: relative;
+    padding: 0% 2%;
+}
+.card-signup{
+    background: rgba(253, 253, 253, 0.767);
+    border: olivedrab;
+    border-radius: 9px;
+    box-shadow: rgb(3, 2, 2);
+    width: 26%;
+    position: absolute;   
+    left: 38%;
+}
+.logo-signup h1{
+    color: rgb(175, 179, 190);
+    font-size: 20px;  
+    font-family: 'KoHo', sans-serif; 
+    font-size: medium;    
+}
+.logo-signup img{
+    width: 100px;
+    height: 100px;
+}
+.h2{
+    font-family: 'Pattaya', sans-serif; 
+    color: rgb(11, 12, 11);
+    font-size: 18px;
+}
+.card-color{
+    background: #00BED8;
+    padding: 10px;
+    border-radius: 7px 7px 0px 0px;
+    text-align: center;
+}
